@@ -1,0 +1,17 @@
+{
+  "name": "movie-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ginavasiloff <ginavasiloff@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc src/index.ts --outDir dist"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}
