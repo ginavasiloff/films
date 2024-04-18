@@ -10,10 +10,11 @@
     "build": "tsc src/index.ts --outDir dist",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts",
-    "test": "jest"
+    "test": "jest spec",
+    "test:integration": "jest integration"
   },
   "devDependencies": {
-    "@jest/globals": "^29.7.0",
+    "@types/express": "^4.17.21",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.12.2",
     "@typescript-eslint/eslint-plugin": "^7.4.0",
@@ -25,5 +26,8 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.4.3",
     "typescript-eslint": "^7.4.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
   }
 }
