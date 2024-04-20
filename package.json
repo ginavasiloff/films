@@ -11,9 +11,10 @@
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts",
     "test": "jest spec",
-    "test:integration": "jest integration"
+    "test:integration": "jest integration --setupFiles dotenv/config"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.19.2"
   },
   "devDependencies": {

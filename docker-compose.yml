@@ -1,0 +1,12 @@
+name: movies
+
+services:
+  movies:
+    env_file:
+    - path: ./.env
+    build:
+      context: .
+    environment:
+      - PORT=${PORT}
+    ports:
+    - ${PORT}:${PORT}
