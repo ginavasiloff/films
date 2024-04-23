@@ -10,7 +10,8 @@
     "dev": "nodemon src/index.ts",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts",
-    "test": "jest spec",
+    "test": "jest",
+    "test:unit": "jest spec",
     "test:integration": "jest integration --setupFiles dotenv/config"
   },
   "dependencies": {
