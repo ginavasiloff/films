@@ -6,7 +6,7 @@
   "configurations": [
     {
       "command": "yarn test",
-      "name": "UI Tests",
+      "name": "films-ui Tests",
       "request": "launch",
       "type": "node-terminal",
       "cwd": "${workspaceFolder}/apps/films-ui/src"
