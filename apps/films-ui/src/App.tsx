@@ -2,8 +2,7 @@ import './App.css'
 import { SearchForm } from './components/search-form'
 
 function App() {
-  const handleSearch = () => {}
-  return <SearchForm search={handleSearch} />
+  return <SearchForm />
 }
 
 export default App

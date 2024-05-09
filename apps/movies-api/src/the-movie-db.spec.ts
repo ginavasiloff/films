@@ -3,7 +3,7 @@ import {
   fetchMovieCredits,
   fetchMovieDetails,
   fetchMovieSearch,
-} from './tmdb'
+} from './the-movie-db'
 
 const mockFetchResponse = (mockJson: object): void => {
   global.fetch = jest.fn(() =>

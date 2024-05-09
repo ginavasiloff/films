@@ -2,7 +2,7 @@ import {
   fetchIndividualDetails,
   fetchMovieCredits,
   fetchMovieDetails,
-} from './tmdb'
+} from './the-movie-db'
 import { MovieCastAges } from './types'
 import { dateDifferenceInMonths } from './util/date'
 

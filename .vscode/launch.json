@@ -17,6 +17,20 @@
       "name": "Launch Chrome against films-ui",
       "url": "http://localhost:5173",
       "webRoot": "${workspaceFolder}/apps/films-ui/src"
-    }
+    },
+    {
+      "command": "yarn dev",
+      "name": "debug api in dev",
+      "request": "launch",
+      "type": "node-terminal",
+      "cwd": "${workspaceFolder}/apps/movies-api/src"
+    },
+    {
+      "command": "yarn test",
+      "name": "movies-api Tests",
+      "request": "launch",
+      "type": "node-terminal",
+      "cwd": "${workspaceFolder}/apps/movies-api/src"
+    },
   ]
 }
