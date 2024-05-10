@@ -1,5 +1,6 @@
 :root {
-  --text: rgba(255, 255, 255, 0.87);
+  --text:#cccccc ;
+  --text-2: #9c8d8d;
   --background-1: #242424;
   --background-2: #1a1a1a;
   --highlight-1: #cccccc;
@@ -67,6 +68,8 @@ input {
 @media (prefers-color-scheme: light) {
   :root {
     --text: #213547;
+    --text-2: #2b445b;
+
     --background-1:#ffffff;
     --background-2:#f9f9f9;
     --blue: #646cff;

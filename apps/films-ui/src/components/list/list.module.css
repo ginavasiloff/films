@@ -1,0 +1,16 @@
+.list {
+  list-style: none;
+  text-align: left;
+}
+
+.list > li {
+  border-top: 1px solid var(--background-2);
+}
+
+.itemTitle {
+  margin: 0;
+}
+
+.subtitle {
+  color: var(--text-2)
+}

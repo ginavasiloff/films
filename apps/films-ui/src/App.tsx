@@ -1,8 +1,8 @@
 import './App.css'
-import { SearchForm } from './components/search-form'
+import { Search } from './search'
 
 function App() {
-  return <SearchForm />
+  return <Search />
 }
 
 export default App
