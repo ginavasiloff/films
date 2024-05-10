@@ -10,10 +10,10 @@ export const Search = () => {
 
   const handleSearch = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    const test = e.currentTarget.elements.namedItem('movie-search') as
+    const input = e.currentTarget.elements.namedItem('movie-search') as
       | HTMLInputElement
       | undefined
-    const searchVal = test ? test.value : ''
+    const searchVal = input ? input.value : ''
     const res = (await search(searchVal)) as MovieDetails[]
     setResults(res)
   }
