@@ -7,7 +7,7 @@ type SearchFormProps = {
 export const SearchForm = ({ handleSearch }: SearchFormProps) => {
   return (
     <search>
-      <form onSubmit={handleSearch}>
+      <form onSubmit={handleSearch} className={styles.form}>
         <label htmlFor="movie-search" className={styles.hidden}>
           Find a Movie
         </label>
